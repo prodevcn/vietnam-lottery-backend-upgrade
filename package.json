@@ -1,0 +1,44 @@
+{
+  "name": "lottopoka-back",
+  "description": "Lottopoka backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/block-hac/lottopoka-back.git",
+  "author": "BlockHac",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0"
+  },
+  "scripts": {
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prod": ""
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "express.js",
+    "socket.io",
+    "lottery",
+    "betting",
+    "lottopoka"
+  ],
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
