@@ -12,6 +12,7 @@
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
     "prettier": "^2.6.0"
   },
   "scripts": {
@@ -19,7 +20,8 @@
     "format:write": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prod": ""
+    "prod": "",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "api",
@@ -32,13 +34,22 @@
   ],
   "dependencies": {
     "axios": "^0.26.1",
+    "bcrypt-nodejs": "^0.0.3",
     "express": "^4.17.3",
+    "express-session": "^1.17.2",
     "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "mongoose": "^6.2.7",
     "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "node-html-parser": "^5.3.3",
     "nodemailer": "^6.7.3",
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
-    "socket.io": "^4.4.1"
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1",
+    "swagger-ui-express": "^4.3.0"
   }
 }
