@@ -3,7 +3,7 @@ const conf = require('../configs');
 
 exports.getBalanceFromMainService = (req, res) => {
   const { token } = req.body;
-
+  
   axios
     .get(`${conf.serviceUrl}/get-balance`, {
       headers: {
